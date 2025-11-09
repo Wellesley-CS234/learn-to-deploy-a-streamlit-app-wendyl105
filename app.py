@@ -50,6 +50,7 @@ option_key = st.sidebar.radio(
 )
 
 st.title(f"Titanic Dataset Explorer: {analysis_options[option_key]}")
+st.subheader("Wendy's very own Titanic dataset analysis")
 
 # 3. Main Page Logic based on Selection
 if option_key == "1":
