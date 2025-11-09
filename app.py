@@ -12,6 +12,7 @@ Do not write complex code, keep it simple.
 
 import streamlit as st
 import pandas as pd
+pip install plotly
 import plotly.express as px
 
 # 1. Configuration and Data Loading
